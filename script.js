@@ -1,8 +1,8 @@
 //create a function to chnage the  background color
 //set background
 
-const $body = document.querySelector($body)
-function setBackgroundColor(color) {
+const $body = document.querySelector('body')
+function setBackgroundColor(color){
     $body.style.backgroundColor = color
 }
 
@@ -25,9 +25,21 @@ function setDescription(message){
 }
 
 //invoke
-//setDescription 
+//setDescription('pizza with pinapple?') 
 
 //setFontColor 
 function setFontColor(color) {
     $body.style.color = color 
 }
+
+//invoke 
+//setFontColor('white')
+
+const $dark = document.querySelector('.dark')
+
+function setTheme(theme){
+    
+}
+
+
+
