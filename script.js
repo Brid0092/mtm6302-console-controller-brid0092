@@ -1,7 +1,7 @@
 //create a function to chnage the  background color
 //set background
 
-const $body = document.querySelector('body')
+const $body = document.querySelector($body)
 function setBackgroundColor(color) {
     $body.style.backgroundColor = color
 }
