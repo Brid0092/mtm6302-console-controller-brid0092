@@ -10,8 +10,8 @@ function setBackgroundColor(color){
 //setBackgroundColor('pink')
 
 //set title
+const $h1 = document.querySelector('h1')
 function setTitle(message){
-    const $h1 = document.querySelector('h1')
     $h1.textContent = message 
 }
 
@@ -35,11 +35,18 @@ function setFontColor(color) {
 //invoke 
 //setFontColor('white')
 
-const $dark = document.querySelector('.dark')
 
-function setTheme(theme){
-    
+function setTheme(dark){ 
+    $body.style.backgroundColor = 'black'
+    $body.style.color = 'white'
 }
+
+//invoke 
+//setTheme('dark')
+
+
+
+
 
 
 
