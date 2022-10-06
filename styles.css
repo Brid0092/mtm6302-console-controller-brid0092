@@ -1,16 +1,11 @@
-
-html {
-    background-color: pink;
-}
-
-#body.dark {
+.dark {
     background-color:red;
     color:black;
 
 }
 
-#body.light {
+.light {
     background-color: gray;
-    color:white;
+    color: lightsalmon;
 
 }

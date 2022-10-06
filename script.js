@@ -10,22 +10,22 @@ function setBackgroundColor(color){
 //setBackgroundColor('pink')
 
 //set title
-const $h1 = document.querySelector('h1')
 function setTitle(message){
+    const $h1 = document.querySelector('h1')
     $h1.textContent = message 
 }
 
 //invoke 
-//setTitle('hello')
+//setTitle('suh dude')
 
 //setTitle
-const $p = document.querySelector('p')
 function setDescription(message){
+    const $p = document.querySelector('p')
     $p.textContent = message
 }
 
 //invoke
-//setDescription('pizza with pinapple?') 
+//setDescription('this is my website now') 
 
 //setFontColor 
 function setFontColor(color) {
@@ -36,14 +36,17 @@ function setFontColor(color) {
 //setFontColor('white')
 
 
-function setTheme(){ 
-    $body.classList.toggle('dark')
-
+function setTheme(theme) {
+    $body.className = theme
 }
 
 
-//invoke 
-//setTheme('light')
+//invoke
+//setTheme('light') or
+//setTheme('dark') 
+
+
+ 
 
 
 
