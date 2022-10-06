@@ -1,7 +1,7 @@
 //create a function to chnage the  background color
 //set background
 
-const $body = document.querySelector('body')
+const $body = document.getElementById('body')
 function setBackgroundColor(color){
     $body.style.backgroundColor = color
 }
@@ -19,8 +19,8 @@ function setTitle(message){
 //setTitle('hello')
 
 //setTitle
+const $p = document.querySelector('p')
 function setDescription(message){
-    const $p = document.querySelector('p')
     $p.textContent = message
 }
 
@@ -36,13 +36,14 @@ function setFontColor(color) {
 //setFontColor('white')
 
 
-function setTheme(dark){ 
-    $body.style.backgroundColor = 'black'
-    $body.style.color = 'white'
+function setTheme(){ 
+    $body.classList.toggle('dark')
+
 }
 
+
 //invoke 
-//setTheme('dark')
+//setTheme('light')
 
 
 
